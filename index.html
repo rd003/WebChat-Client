@@ -13,36 +13,21 @@
             🗨️ WebChat
         </div>
 
-        <div class="message-section">
+        <div class="message-section" id="messageSection">
              <!-- this div display on right side -->
-             <div class="msg-box received">
+             <!-- <div class="msg-box received">
                  hi ddd dfdsfd ddddddddddddddddddddddddddddddddddddddddddd1
-             </div>
-
-             <!-- this div display on left side -->
-             <div class="msg-box send">
-                hello
-             </div>
-
-             <div class="msg-box received">
-                hi ddd 
-            </div>
-
-            <!-- this div display on left side -->
-            <div class="msg-box send">
-               hello dd
-            </div>
-
-            <div class="msg-box received">
-                hey
-            </div>
+             </div> -->
 
         </div>
 
         <div class="input-section">
-            <input type="text" class="input"/>
-            <button class="btn">Send</button>
+            <input type="text" class="input" id="txtMessage"/>
+            <button class="btn" id="btnSend">Send</button>
         </div>
     </div>
 </body>
+ <script src="/node_modules/@microsoft/signalr/dist/browser/signalr.js">
+ </script>
+ <script src="/chat.js"></script>
 </html>
